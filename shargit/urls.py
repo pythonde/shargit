@@ -19,4 +19,5 @@ import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^stu1/', views.index_view),
+    url(r'^stu2',views.stu2_view)
 ]
